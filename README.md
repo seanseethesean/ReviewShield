@@ -61,4 +61,4 @@ Optionally, run a few-shot demo with a small instruction-tuned LLM.
 - **Cyril Pedrina** — Zero-shot classification pipeline (Hugging Face), pseudo-label generation.  
 - **Jade Ng** — Baseline model (TF-IDF + Logistic Regression), training, and evaluation metrics.  
 - **Eleanor Cheak** — Prompt engineering (`policy.md`), few-shot examples, and LLM experimentation.  
-- **Zelda Seow** — Documentation, slides preparation, and final presentation delivery.
+- **Zelda Seow** — Documentation, and final presentation delivery.
