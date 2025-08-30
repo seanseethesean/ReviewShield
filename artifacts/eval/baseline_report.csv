@@ -1,0 +1,7 @@
+,precision,recall,f1-score,support
+irrelevant,0.0,0.0,0.0,1.0
+no_visit_rant,0.0,0.0,0.0,1.0
+none,0.9897,0.9697,0.9796,198.0
+accuracy,0.96,0.96,0.96,0.96
+macro avg,0.3299,0.3232,0.3265,200.0
+weighted avg,0.9798,0.96,0.9698,200.0
