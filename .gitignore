@@ -4,3 +4,4 @@ artifacts/
 .venv/
 __pycache__/
 artifacts/
+data/raw/*.json
