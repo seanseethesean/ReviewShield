@@ -17,9 +17,6 @@ df = df[df["text"].str.strip().str.lower() != "nan"]  # drop former NaNs
 df = df[df["text"].str.strip().str.len() > 0]         # drop empty
 df.reset_index(drop=True, inplace=True)
 
-# faster CPU model (good quality): distilbert-mnli
-# model_id = "typeform/distilbert-base-uncased-mnli"
-# higher-quality but slower/larger: bart-large-mnli
 model_id = "typeform/distilbert-base-uncased-mnli"
 
 print(f"[ZSL] loading model: {model_id}")
