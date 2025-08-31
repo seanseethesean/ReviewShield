@@ -41,13 +41,13 @@ For JSON data:
 python src/data/ingest_json.py
 
 ### 2. Zero-Shot Labeling (pseudo-labels)
-python src/models/zero_shot_pseudo.py
+python src/models/hf_batch_infer.py
 
 ### 3. Baseline Model (TF-IDF + Logistic Regression)
 python src/models/baseline.py
 
 ### 4. Evaluation
-python src/eval/metrics.py
+python src/eval/visualise.py
 
 ### 5. Prompt Engineering
 Instructions and few-shot examples are in src/prompts/policy.md.
